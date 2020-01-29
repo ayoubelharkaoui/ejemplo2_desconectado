@@ -32,6 +32,7 @@ namespace ejemplo_bases
                 dt = bbdd.ds_concursomusica.Tables[i];
                 cmb_tablas.Items.Add(dt.TableName);
             }
+            //gsf
         }
 
         private void GroupBox1_Enter(object sender, EventArgs e)
